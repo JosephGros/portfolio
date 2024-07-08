@@ -5,7 +5,7 @@ interface WebsiteCardProps {
   image: any;
 }
 
-const WebsiteCard: React.FC<WebsiteCardProps> = ({ text, content, url, image }) => {
+const WebsiteCard: React.FC<WebsiteCardProps> = ({ text, url, image }) => {
 
   return (
     <div className="max-w-sm rounded-md overflow-hidden shadow-lg m-4 border border-2 border-bahama-50">
